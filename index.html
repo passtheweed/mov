@@ -169,37 +169,24 @@
   let isDeleting = false;
 
   function typeWriterEffect() {
-    // Update the title based on typing or deleting
-    // Update the title by either typing or deleting characters
-    if (isDeleting) {
-      document.title = titleText.substring(0, index - 1); // Backspace
-      document.title = titleText.substring(0, index - 1); // Backspace one character
-      index--;
-    } else {
-      document.title = titleText.substring(0, index + 1); // Type forward
-      document.title = titleText.substring(0, index + 1); // Add one character
-      index++;
-    }
-
+ // Update the title by either typing or deleting characters
+        if (isDeleting) {
+          document.title = titleText.substring(0, index - 1); // Backspace
+          index--;
+         } else {
+           document.title = titleText.substring(0, index + 1); // Type forward
+           index++;
+          }
+    
     // Check if typing or deleting is complete
-    // Toggle between typing and deleting states
     if (!isDeleting && index === titleText.length) {
-      setTimeout(() => (isDeleting = true), 1000); // Pause before deleting
-      setTimeout(() => (isDeleting = true), 1000); // Pause before backspacing
+    setTimeout(() => (isDeleting = true), 1000); // Pause before deleting
     } else if (isDeleting && index === 0) {
       isDeleting = false; // Switch to typing
-      isDeleting = false; // Reset to typing mode
-    }
+      }
 
-    // Adjust speed for typing vs deleting
-    const speed = isDeleting ? 100 : 200;
-    setTimeout(typeWriterEffect, speed);
-    // Set a consistent speed for both typing and deleting
-    setTimeout(typeWriterEffect, 200); // Adjust speed here
-  }
-
-  // Start the typewriter effect
-  typeWriterEffect();
+    // Start the typewriter effect
+      typeWriterEffect();
 </script>
 </head>
 
