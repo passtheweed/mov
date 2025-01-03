@@ -167,26 +167,41 @@
   const titleText = "Duhh-Mov";
   let index = 0;
   let isDeleting = false;
+  const stopAtLetter = "D"; // Letter where we stop while deleting
+  
+  // Speed control
+  const typingSpeed = 200; // Typing speed (ms)
+  const deletingSpeed = 100; // Deleting speed (ms)
+  const pauseTime = 1000; // Time to wait before backspacing (ms)
 
   function typeWriterEffect() {
     // Update the title by either typing or deleting characters
     if (isDeleting) {
-      document.title = titleText.substring(0, index - 1); // Backspace one character
+      // Backspace one character
+      document.title = titleText.substring(0, index - 1); 
       index--;
+
+      // Stop deleting when it reaches the letter "D"
+      if (titleText[index - 1] === stopAtLetter) {
+        isDeleting = false; // Switch to typing mode
+      }
+
+      setTimeout(typeWriterEffect, deletingSpeed); // Speed for deleting
     } else {
-      document.title = titleText.substring(0, index + 1); // Add one character
+      // Add one character
+      document.title = titleText.substring(0, index + 1); 
       index++;
-    }
 
-    // Toggle between typing and deleting states
-    if (!isDeleting && index === titleText.length) {
-      setTimeout(() => (isDeleting = true), 1000); // Pause before backspacing
-    } else if (isDeleting && index === 0) {
-      isDeleting = false; // Reset to typing mode
-    }
+      // After typing the entire text, wait before starting to delete
+      if (index === titleText.length) {
+        setTimeout(() => {
+          isDeleting = true; // Start deleting
+          typeWriterEffect(); // Start backspacing
+        }, pauseTime);
+      }
 
-    // Set a consistent speed for both typing and deleting
-    setTimeout(typeWriterEffect, 200); // Adjust speed here
+      setTimeout(typeWriterEffect, typingSpeed); // Speed for typing
+    }
   }
 
   // Start the typewriter effect
