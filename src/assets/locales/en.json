@@ -1,6 +1,6 @@
 {
   "about": {
-    "description": "duhh-mov is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. duhh-mov runs on a private, self-hosted VPS. I run this site at a loss; there are no ads because fuck ads, and fuck you!.",
+    "description": "duhh-mov is a fork of movie web. They shutdown so I am here PRIVATELY. duhh-mov runs on a private, self-hosted VPS. No profit is made from this shit either because I don't like money apparently. Fuck Ads, get pussy.",
     "faqTitle": "Common questions",
     "q1": {
       "body": "duhh-mov does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by duhh-mov, everything is through this searching mechanism.",
@@ -64,7 +64,7 @@
         "title": "Failed to reach server"
       },
       "noHostTitle": "Server not configured!",
-      "noHost": "The server has not been configured, therefore you cannot create an account",
+      "noHost": "The server has not been configured, dm me to stop being a lazy ass nigga",
       "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
       "no": "Go back",
       "title": "Do you trust this server?",
@@ -90,7 +90,7 @@
   "footer": {
     "legal": {
       "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-      "disclaimerText": "Please note: Duhh-Mov does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimerText": "Please Note: Duhh-Mov doesn't host any content. We legit just like scrape links from other sites, so take them down and not me because it's not illegal to scrape from other sites. Go worry abt them niggas, and then I'll just be out the way 🤷🏿"
     },
     "links": {
       "discord": "Discord for Kittens",
@@ -98,7 +98,7 @@
       "github": "GitHub for nerds",
       "twitter": "Twitter for fatasses"
     },
-    "tagline": "Watch movies nigger."
+    "tagline": "Duhh-Mov & Masturbate"
   },
   "global": {
     "name": "Duhh-Mov",
@@ -131,21 +131,21 @@
       "loading": "Loading...",
       "noResults": "No results.. you're cooked nigga",
       "placeholder": {
-        "default": "We back Nigga!",
+        "default": "Woah, whats this? A NEW UI!!!",
         "extra": [
           "What ya tryna watch pookie?",
           "Alt + F4 for Free Vbucks",
           "Duhh-Mov is back!!!",
           "U stink",
-          "Christmas Break fag!!",
+          "Get back to work.",
           "Nigger",
           "King Von deserved it.",
-          "Let's go to KFC * get Fried Chicken + Watermelon!",
-          ">ᴗ<"
+          "Let's go to KFC!",
+          "Just came >ᴗ<"
         ]
       },
       "empty": {
-        "default": "Wsp, find sumn to watch nigga",
+        "default": "This is a search bar 😭😭",
         "extra": [
           "Empty asf nigga. Watch sumn",
           "So empty...",
@@ -173,11 +173,11 @@
         "extra": ["cum."]
       },
       "night": {
-        "default": "WE BACK NIGGA!",
-        "extra": ["Rick & Morty is great with da hoes"],
-        "extra": ["Go smoke and watch Toradora"],
+        "default": "Drop the album @PlayBoiCarti",
+        "extra": ["Lilo & Stitch is great with da hoes"],
+        "extra": ["Go smoke and watch Wicked (it sucks)"],
         "extra": ["GO TO BED U NO PUSSY HAVING ASS BITCH"],
-        "extra": ["night night."]
+        "extra": ["2025 = Duhh-Mov"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
@@ -474,7 +474,7 @@
     "title": "Support",
     "text": "My website is designed to be as user-friendly as possible. So don't bitch abt it.",
     "q1": {
-      "body": "A Mental Hospital. Faggot. <0>/0>",
+      "body": "A Mental Hospital. Faggot.",
       "title": "Where can I get help?"
     },
     "q2": {
