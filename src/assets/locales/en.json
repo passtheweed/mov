@@ -131,7 +131,7 @@
       "loading": "Loading...",
       "noResults": "No results.. you're cooked nigga",
       "placeholder": {
-        "default": "Woah, whats this? A NEW UI!!!",
+        "default": "This is a search bar",
         "extra": [
           "What ya tryna watch pookie?",
           "Alt + F4 for Free Vbucks",
@@ -145,7 +145,7 @@
         ]
       },
       "empty": {
-        "default": "This is a search bar 😭😭",
+        "default": "This bitch empty. Get to watching hoe.",
         "extra": [
           "Empty asf nigga. Watch sumn",
           "So empty...",
@@ -159,7 +159,7 @@
     },
     "titles": {
       "day": {
-        "default": "What's cooking, good lookin? (rizz)",
+        "default": "Woah, whats this? A NEW UI!",
         "extra": ["Have you seen SOME BITCHES. YOU HOELESS ASS NIGGA!"],
         "extra": ["Welcome to Duhh-Mov"],
         "extra": ["Im gonna cum"],
