@@ -1,28 +1,28 @@
 {
   "about": {
-    "description": "P-Stream is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. P-Stream runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "description": "duhh-mov is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. duhh-mov runs on a private, self-hosted VPS. I run this site at a loss; there are no ads because fuck ads, and fuck you!.",
     "faqTitle": "Common questions",
     "q1": {
-      "body": "P-Stream does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by P-Stream, everything is through this searching mechanism.",
+      "body": "duhh-mov does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by duhh-mov, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, P-Stream does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, duhh-mov does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
       "body": "Our search results are powered by The Movie Database (TMDB) and display regardless of whether our sources actually have the content.",
-      "title": "The search results display the show oer movie, why can't I play it?"
+      "title": "The search results display the show or movie, why can't I play it?"
     },
     "q4": {
-      "body": "All data is synced to the community backend, anyone is free to use this as well.",
+      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by Badmevv, anyone is free to use this as well.",
       "title": "What about my data and stuff?"
     },
     "q5": {
-      "body": "P-Stream has a Discord server that can be found at the header of this page!",
+      "body": "You can't",
       "title": "How can I find out more?"
     },
-    "title": "About P-Stream (^▽^)"
+    "title": "About Duhh-Mov"
   },
   "actions": {
     "copied": "Copied",
@@ -33,7 +33,7 @@
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
-      "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account. <bold>Do NOT lose your passphrase!</bold>",
+      "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account. <bold>Do NOT lose your passphrase nigga!</bold>",
       "next": "I have saved my passphrase",
       "passphraseFrameLabel": "Passphrase",
       "title": "Your passphrase"
@@ -90,18 +90,18 @@
   "footer": {
     "legal": {
       "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-      "disclaimerText": "Please note: P-Stream does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimerText": "Please note: Duhh-Mov does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
-      "discord": "Discord",
-      "dmca": "DMCA",
-      "github": "GitHub",
-      "twitter": "Twitter"
+      "discord": "Discord for Kittens",
+      "dmca": "DMCA for Lawyers",
+      "github": "GitHub for nerds",
+      "twitter": "Twitter for fatasses"
     },
-    "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
+    "tagline": "Watch movies nigger."
   },
   "global": {
-    "name": "P-Stream",
+    "name": "Duhh-Mov",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -109,7 +109,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - P-Stream",
+      "pagetitle": "{{title}} - Duhh-Mov",
       "register": "Register",
       "settings": "Settings",
       "jip": "Jip"
@@ -126,31 +126,31 @@
       "stopEditing": "Stop editing"
     },
     "search": {
-      "allResults": "That's all we have...",
-      "failed": "Failed to find media, try again!",
+      "allResults": "No results.. you're cooked!",
+      "failed": "Failed to find media, reload nigga!",
       "loading": "Loading...",
-      "noResults": "We couldn't find anything :(",
+      "noResults": "No results.. you're cooked nigga",
       "placeholder": {
-        "default": "What do you want to watch?",
+        "default": "We back Nigga!",
         "extra": [
-          "What are you in the mood for?",
-          "Should we delete your browser history?",
-          "What do you want to stream?",
-          "P-Stream is the best site ever!",
-          "What's on your watchlist today?",
-          "How was your day?",
-          "My bad the site never works...",
-          "Isn't P-Stream just the best?",
+          "What ya tryna watch pookie?",
+          "Alt + F4 for Free Vbucks",
+          "Duhh-Mov is back!!!",
+          "U stink",
+          "Christmas Break fag!!",
+          "Nigger",
+          "King Von deserved it.",
+          "Let's go to KFC * get Fried Chicken + Watermelon!",
           ">ᴗ<"
         ]
       },
       "empty": {
-        "default": "Welcome, find media to watch here!",
+        "default": "Wsp, find sumn to watch nigga",
         "extra": [
-          "There's nothing here :(",
+          "Empty asf nigga. Watch sumn",
           "So empty...",
-          "Such emptiness.",
-          "Hi new user :3"
+          "Empty ahh watchlist.",
+          "Sup nigga"
         ]
       },
       "sectionTitle": "Search results",
@@ -159,32 +159,32 @@
     },
     "titles": {
       "day": {
-        "default": "What would you like to watch this afternoon?",
-        "extra": ["Have you seen Blazing Saddles?"],
-        "extra": ["Welcome to P-Stream!"],
-        "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
-        "extra": ["Viva la P-Stream!"]
+        "default": "What's cooking, good lookin? (rizz)",
+        "extra": ["Have you seen SOME BITCHES. YOU HOELESS ASS NIGGA!"],
+        "extra": ["Welcome to Duhh-Mov"],
+        "extra": ["Im gonna cum"],
+        "extra": ["kys."]
       },
       "morning": {
-        "default": "What would you like to watch this morning?",
-        "extra": ["Can't go wrong with Friends"],
-        "extra": ["I hear The Expanse is popular"],
-        "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Viva la P-Stream!"]
+        "default": "Go back to sleep bitch",
+        "extra": ["Go get some hoes"],
+        "extra": ["Give head now."],
+        "extra": ["semen."],
+        "extra": ["cum."]
       },
       "night": {
-        "default": "What would you like to watch tonight?",
-        "extra": ["Rick & Morty is great with friends!"],
-        "extra": ["Go smoke and watch The Simpsons!"],
-        "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la P-Stream!"]
+        "default": "WE BACK NIGGA!",
+        "extra": ["Rick & Morty is great with da hoes"],
+        "extra": ["Go smoke and watch Toradora"],
+        "extra": ["GO TO BED U NO PUSSY HAVING ASS BITCH"],
+        "extra": ["night night."]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
-        "extra": ["Happy 4/20 🥳!"]
+        "extra": ["Weed smoking ass nigga"]
       },
       "69": {
-        "default": "Up for something spicy?",
+        "default": "It's 69 day. Give head now.",
         "extra": ["Happy 69 day 😘!"]
       }
     }
@@ -199,12 +199,12 @@
   },
   "navigation": {
     "banner": {
-      "offline": "Check your internet connection, silly goose! 🦢"
+      "offline": "You don't have wifi.. broke ass nigga"
     },
     "menu": {
       "about": "About us",
       "logout": "Log out",
-      "register": "Sync to Cloud",
+      "register": "Sync to sudo-cloud",
       "settings": "Settings",
       "support": "Support",
       "discover": "Discover"
@@ -214,76 +214,77 @@
     "badge": "Not found",
     "goHome": "Back to home",
     "reloadButton": "Try again",
-    "message": "We looked everywhere: under the bins, in the closet, behind the proxy, but ultimately couldn't find the page you are looking for. (ಥ﹏ಥ)",
+    "message": "We looked everywhere, and we couldn't find the movie nor could we find the hoes.",
     "title": "Couldn't find that page"
   },
   "downtimeNotice": {
     "badge": "Issues",
     "goHome": "Go home",
-    "message": "P-Stream is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "message": "Duhh-Mov is experiencing issues with some providers, if you cant watch shit please change the source. Expect this error to persist through these times.",
+    "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
     "title": "Provider issues"
   },
   "onboarding": {
     "defaultConfirm": {
       "cancel": "Cancel",
-      "confirm": "Use default setup",
-      "description": "The default setup does not have the best streams and can be unbearably slow.",
+      "confirm": "Use default setup = no hoes",
+      "description": "The default setup does not have the best streams and can be unbearably slow. The hoes will run away",
       "title": "Are you sure?"
     },
     "extension": {
       "back": "Go back",
       "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install. 👌",
-      "explainerIos": "Unfortunately, the browser extension is not supported on iOS, Press <bold>Go back</bold> to choose another option.",
+      "explainerIos": "We do not support iPhones. Stupid ass nigga fuck your iPhone, just kys already. Press <bold>Go back</bold> to choose another option.",
       "extensionHelp": "If you've installed the extension but it's not detected, <bold>open the extension through your browsers extension menu</bold> and follow the steps on screen.",
-      "linkChrome": "Install Chrome extension",
-      "linkFirefox": "Install Firefox extension",
-      "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
+      "linkChrome": "Install Chrome extension for sigmas",
+      "linkFirefox": "Install Firefox extension for betas",
+      "notDetecting": "Installed on Chrome, but the site isn't detecting it? Reload the page, dumbass nigga.",
       "notDetectingAction": "Reload page",
       "status": {
-        "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
+        "disallowed": "Extension is not enabled for this page retard.",
         "disallowedAction": "Enable extension",
         "failed": "Failed to request status",
-        "loading": "Waiting for you to install the extension",
-        "outdated": "Extension version too old",
-        "success": "Extension is working as expected!"
+        "loading": "Hurry up and install it nigga",
+        "outdated": "Update the extension faggot",
+        "success": "Extension works."
       },
       "submit": "Continue",
-      "title": "Let's start with an extension"
+      "title": "LETS GET SOME HOES!!!"
     },
     "proxy": {
       "back": "Go back",
-      "explainer": "With the proxy method, you can get great quality streams by making a self-service proxy.",
+      "explainer": "With the proxy method, you can get great quality streams by making a self-service proxy. Nerdy ass nigga",
       "input": {
-        "errorConnection": "Could not connect to proxy",
-        "errorInvalidUrl": "Not a valid URL",
-        "errorNotProxy": "Expected a proxy but got a website",
+        "errorConnection": "Could not connect to proxy BITCH?",
+        "errorInvalidUrl": "Not a valid URL retard",
+        "errorNotProxy": "Expected a proxy but got a website fucking retard",
         "label": "Proxy URL",
         "placeholder": "https://"
       },
       "link": "Learn how to make a proxy",
       "submit": "Submit proxy",
-      "title": "Let's make a new proxy"
+      "title": "Let's make a proxy now"
     },
     "start": {
-      "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
+      "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use. There's 3 options, hoes or no hoes.",
       "options": {
         "default": {
-          "text": "I don't want good quality streams, use the default setup."
+          "text": "I don't want hoes.<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
         },
         "extension": {
           "action": "Install extension",
-          "description": "Install browser extension and gain access to the best sources, but remember to enable it for this site.",
-          "quality": "Best quality",
-          "title": "Browser extension"
+          "description": "Install browser extension and gain access to the best sources, but remember to enable it for this site. Then hoes will appear",
+          "quality": "Best quality = hoes",
+          "title": "Browser extension for rizzlers"
         },
         "proxy": {
           "action": "Setup proxy",
-          "description": "Setup a free proxy in just 5 minutes and gain access to great sources...",
-          "quality": "Good quality",
-          "title": "Custom proxy"
+          "description": "Setup a free proxy in just 5 minutes and gain access to great sources... hoes may show up 👀",
+          "quality": "Good quality = hoes maybe?",
+          "title": "PROXYYYYYYYYYYYYY"
         }
       },
-      "title": "Let's get you setup with P-Stream 🥳"
+      "title": "Let's get you setup with Duhh-Mov niggaaa 🧑🏿‍🎄"
     }
   },
   "overlays": {
@@ -299,18 +300,18 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. P-Stream does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. Duhh-Mov does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "hlsDisclaimer": "Downloads are taken directly from the provider. P-Stream does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. Duhh-Mov does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
           "title": "Downloading on Android"
         },
         "onIos": {
-          "1": "To download on iOS, click the download button then, on the new page, click <bold><ios_share /></bold>, then <bold>Save to Files <ios_files /></bold>.",
+          "1": "To download on shitty iPhones, click the download button then, hang yourself. <bold><ios_share /></bold><bold><ios_files /></bold>.",
           "shortTitle": "Download / iOS",
           "title": "Downloading on iOS"
         },
@@ -323,12 +324,12 @@
       },
       "episodes": {
         "button": "Episodes",
-        "emptyState": "There are no episodes in this season, check back later (sorry :3)...",
+        "emptyState": "There are no episodes in this season, check back later (Hoes are gone)...",
         "episodeBadge": "E{{episode}}",
         "loadingError": "Error loading season",
         "loadingList": "Loading...",
         "loadingTitle": "Loading...",
-        "unairedEpisodes": "One or more episodes in this season have been disabled because they haven't been aired yet.",
+        "unairedEpisodes": "One or more episodes in this season haven't released nigga",
         "seasons": "Seasons"
       },
       "playback": {
@@ -338,7 +339,7 @@
       "quality": {
         "automaticLabel": "Automatic quality",
         "hint": "You can try <0>switching source</0> to get different quality options.",
-        "iosNoQuality": "Due to Apple-defined (common IOS L) limitations, quality selection is not available on iOS for this source. You can try <0>switching to another source</0> to get different quality options.",
+        "iosNoQuality": "iPhones suck, and you can't get good quality manually (Just kys already)<0> switch to another source</0> to get different quality options.",
         "title": "Quality"
       },
       "settings": {
@@ -354,15 +355,15 @@
       },
       "sources": {
         "failed": {
-          "text": "There was an error while trying to find any videos... Try a different source?",
-          "title": "Failed to scrape"
+          "text": "There was an error. Try again nigger.",
+          "title": "Failed to scrape that shit."
         },
         "noEmbeds": {
           "text": "We were unable to find any embeds, please try a different source.",
-          "title": "No embeds found"
+          "title": "No embeds found nigga"
         },
         "noStream": {
-          "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
+          "text": "HAHA NO STREAMS FOR THIS ONE!! YOU'RE NOT GETTING LAID!!!",
           "title": "No stream :("
         },
         "title": "Sources",
@@ -453,7 +454,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the P-Stream extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the sudo-flix extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -463,7 +464,7 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the quick challenge, this is to keep P-Stream safe.",
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep Duhh-Mov safe.",
       "error": "Failed to verify your humanity! Please try again.",
       "title": "Are You a Robot 🤖?",
       "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
@@ -471,32 +472,32 @@
   },
   "support": {
     "title": "Support",
-    "text": "P-Stream is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "text": "My website is designed to be as user-friendly as possible. So don't bitch abt it.",
     "q1": {
-      "body": "Well, you can join the official <0>P-Stream discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "A Mental Hospital. Faggot. <0>/0>",
       "title": "Where can I get help?"
     },
     "q2": {
-      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
+      "body": "Just dm me.",
       "title": "How can I report a bug or issue?"
     }
   },
   "jip": {
     "title": "Jip",
-    "text": "P-Stream didn't fall out of a coconut tree, it was made mostly by a single person (a very epic one at that).",
+    "text": "Duhh-Mov didn't fall out of a coconut tree, it was made mostly by some badass niggas (Mostly me).",
     "q1": {
-      "body": "Well, you can join the official <0>P-Stream discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
-      "title": "Where can I get help?"
+      "body": "FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!FUCK GAYS!",
+      "title": "Why do you hate gays?"
     },
     "q2": {
-      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
+      "body": "Dm me",
       "title": "How can I report a bug or issue?"
     }
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to P-Stream's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
-      "title": "DMCA :("
+      "text": "Welcome to the DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "title": "DMCA for lawyers :)"
     },
     "loadingApp": "Loading application",
     "loadingUser": "Loading your profile",
@@ -508,8 +509,8 @@
       "textWithReset": "Failed to load your profile from your custom server, want to reset back to the default server?"
     },
     "migration": {
-      "failed": "Failed to migrate your data. 😿",
-      "inProgress": "Please hold, we are migrating your data. This shouldn't take long..."
+      "failed": "Failed to migrate your data over the border. 😿",
+      "inProgress": "Please hold, we are migrating your data over the mexican border. Better know how to hop!"
     }
   },
   "settings": {
@@ -522,7 +523,7 @@
       },
       "admin": {
         "title": "Admin panel",
-        "text": "Utilize tools made for testing P-Stream's condition.",
+        "text": "Utilize tools made for testing the condition of the site.",
         "button": "Check it out"
       },
       "actions": {
@@ -534,12 +535,7 @@
           "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
           "title": "Delete account"
         },
-        "title": "Actions",
-        "logoutAllDevices": {
-          "title": "End All Sessions",
-          "text": "This will sign you out from all devices linked to your account.",
-          "button": "Log Out of All Devices"
-        }
+        "title": "Actions"
       },
       "devices": {
         "deviceNameLabel": "Device name",
@@ -557,7 +553,7 @@
       "register": {
         "cta": "Get started",
         "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
-        "title": "Sync to the Cloud"
+        "title": "Sync to the sudo-cloud"
       },
       "title": "Account"
     },
@@ -569,7 +565,7 @@
         "gray": "Gray",
         "red": "Red",
         "teal": "Teal",
-        "classic": "Classic"
+        "blck": "BLCK"
       },
       "title": "Appearance"
     },
@@ -621,7 +617,7 @@
       "autoplayDescription": "Automatically play the next episode in a series after reaching the end. Can be enabled by users with the browser extension, a custom proxy, or with the default setup if allowed by the host.",
       "autoplayLabel": "Autoplay",
       "sourceOrder": "Reordering sources",
-      "sourceOrderDescription": "Drag and drop to reorder sources. This will determine the order in which sources are checked for the media you are trying to watch. If a source is greyed out, it means the <bold>extension</bold> is required for that source.",
+      "sourceOrderDescription": "Drag and drop to reorder sources. This will determine the order in which sources are checked for the media you are trying to watch. If a source is greyed out, it means it is not available on your device.",
       "title": "Preferences"
     },
     "reset": "Reset",
@@ -635,7 +631,7 @@
         "insecure": "Insecure",
         "notLoggedIn": "You are not logged in",
         "secure": "Secure",
-        "title": "App stats",
+        "title": "App stats (for nerds) 🤓",
         "unknownVersion": "Unknown",
         "userId": "User ID"
       }
@@ -644,7 +640,7 @@
       "backgroundLabel": "Background opacity",
       "backgroundBlurLabel": "Background blur",
       "colorLabel": "Color",
-      "previewQuote": "Convinced life is meaningless, I lack the courage of my conviction.",
+      "previewQuote": "Would you rather have a thot daughter or a gay son? 🤔",
       "textSizeLabel": "Text size",
       "title": "Subtitles",
       "textBoldLabel": "Bold text"
