@@ -171,25 +171,25 @@
   
   // Speed control
   const typingSpeed = 200; // Typing speed (ms)
-  const deletingSpeed = 100; // Deleting speed (ms)
+  const deletingSpeed = 200; // Deleting speed (ms)
   const pauseTime = 1000; // Time to wait before backspacing (ms)
 
   function typeWriterEffect() {
     // Update the title by either typing or deleting characters
     if (isDeleting) {
       // Backspace one character
-      document.title = titleText.substring(0, index - 1); 
+      document.title = titleText.substring(0, index - 1);
       index--;
 
       // Stop deleting when it reaches the letter "D"
-      if (titleText[index - 1] === stopAtLetter) {
+      if (index === 1) { // Once we're at "D", stop deleting
         isDeleting = false; // Switch to typing mode
       }
 
       setTimeout(typeWriterEffect, deletingSpeed); // Speed for deleting
     } else {
       // Add one character
-      document.title = titleText.substring(0, index + 1); 
+      document.title = titleText.substring(0, index + 1);
       index++;
 
       // After typing the entire text, wait before starting to delete
