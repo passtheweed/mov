@@ -1,0 +1,33 @@
+name: Regenerate pnpm-lock.yaml
+
+on:
+  push:
+    branches:
+      - main   # Trigger this action when changes are pushed to the 'main' branch
+
+jobs:
+  regenerate-lockfile:
+    runs-on: ubuntu-latest  # You can change this to another runner if needed
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # Use your Node.js version here (can be specified)
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies and regenerate lockfile
+        run: pnpm install
+
+      - name: Commit and push the updated lockfile
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add pnpm-lock.yaml
+          git commit -m "Regenerate pnpm-lock.yaml"
+          git push
