@@ -138,7 +138,7 @@
   <!-- disabling referrer can fix some provider problems -->
   <meta name="referrer" content="no-referrer" />
 
-  <title>P-Stream</title>
+  <title>Duhh-Mov</title>
 
   {{#if opensearchEnabled }}
   <!-- OpenSearch -->
@@ -169,24 +169,28 @@
   let isDeleting = false;
 
   function typeWriterEffect() {
- // Update the title by either typing or deleting characters
-        if (isDeleting) {
-          document.title = titleText.substring(0, index - 1); // Backspace
-          index--;
-         } else {
-           document.title = titleText.substring(0, index + 1); // Type forward
-           index++;
-          }
-    
-    // Check if typing or deleting is complete
-    if (!isDeleting && index === titleText.length) {
-    setTimeout(() => (isDeleting = true), 1000); // Pause before deleting
-    } else if (isDeleting && index === 0) {
-      isDeleting = false; // Switch to typing
-      }
+    // Update the title by either typing or deleting characters
+    if (isDeleting) {
+      document.title = titleText.substring(0, index - 1); // Backspace one character
+      index--;
+    } else {
+      document.title = titleText.substring(0, index + 1); // Add one character
+      index++;
+    }
 
-    // Start the typewriter effect
-      typeWriterEffect();
+    // Toggle between typing and deleting states
+    if (!isDeleting && index === titleText.length) {
+      setTimeout(() => (isDeleting = true), 1000); // Pause before backspacing
+    } else if (isDeleting && index === 0) {
+      isDeleting = false; // Reset to typing mode
+    }
+
+    // Set a consistent speed for both typing and deleting
+    setTimeout(typeWriterEffect, 200); // Adjust speed here
+  }
+
+  // Start the typewriter effect
+  typeWriterEffect();
 </script>
 </head>
 
