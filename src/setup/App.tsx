@@ -20,7 +20,6 @@ import { DmcaPage, shouldHaveDmcaPage } from "@/pages/Dmca";
 import MaintenancePage from "@/pages/errors/MaintenancePage";
 import { NotFoundPage } from "@/pages/errors/NotFoundPage";
 import { HomePage } from "@/pages/HomePage";
-import { JipPage } from "@/pages/Jip";
 import { LoginPage } from "@/pages/Login";
 import { OnboardingPage } from "@/pages/onboarding/Onboarding";
 import { OnboardingExtensionPage } from "@/pages/onboarding/OnboardingExtension";
