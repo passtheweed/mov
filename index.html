@@ -161,6 +161,29 @@
         }
       </script>
   {{/if}}
+
+  <script>
+  // Define the text for the typewriter effect
+  const titleText = "Duhh-Mov";
+  let index = 0;
+
+  function typeWriterEffect() {
+    // Update the document's title by progressively adding characters
+    document.title = titleText.substring(0, index + 1);
+    index++;
+    
+    // If the whole text is displayed, restart after a delay
+    if (index > titleText.length) {
+      setTimeout(() => { index = 0; }, 1500); // Reset after 1.5 seconds
+    }
+    
+    // Continue the effect with a delay
+    setTimeout(typeWriterEffect, 200); // Adjust typing speed here
+  }
+
+  // Start the typewriter effect
+  typeWriterEffect();
+</script>
 </head>
 
 <body>
