@@ -169,9 +169,9 @@
   let isDeleting = false;
   const stopAtLetter = "D"; // Letter where we stop while deleting
   
-  // Speed control
-  const typingSpeed = 200; // Typing speed (ms)
-  const deletingSpeed = 200; // Deleting speed (ms)
+  // Speed control (slower speeds)
+  const typingSpeed = 300; // Typing speed (ms) - slower
+  const deletingSpeed = 150; // Deleting speed (ms) - slower
   const pauseTime = 1000; // Time to wait before backspacing (ms)
 
   function typeWriterEffect() {
@@ -207,6 +207,7 @@
   // Start the typewriter effect
   typeWriterEffect();
 </script>
+
 </head>
 
 <body>
